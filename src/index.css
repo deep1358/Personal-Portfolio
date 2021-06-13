@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap");
+
+:root {
+  --color1: #151a27;
+  --color2: #2b3141;
+  --color3: #7b87dd;
+  --color4: #ff5722;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+body {
+  overflow-x: hidden;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: var(--color1);
+}
+.btn-primary,
+.btn-secondary {
+  padding: 0.7rem 1.5rem;
+  cursor: pointer;
+  margin: 0 1rem;
+  border: none;
+  outline: none;
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  border-radius: 2px;
+}
+.btn-primary {
+  background-color: var(--color4);
+  color: white;
+}
+.btn-secondary {
+  background-color: transparent;
+  color: white;
+  border: 1px solid var(--color4);
+}
+.btn-primary:hover {
+  background-color: #ff754b;
+}
+.btn-secondary:hover {
+  background-color: #ff754b;
+}
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: none;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 40px solid rgb(231, 231, 90);
+  background: transparent;
+  z-index: 1;
+}
+@media (max-width: 650px) {
+  .btn-primary,
+  .btn-secondary {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+}
+@media (max-width: 450px) {
+  .btn-primary,
+  .btn-secondary {
+    font-size: 0.7rem;
+    padding: 0.4rem 0.8rem;
+    margin: 0.5rem 0;
+  }
+}
