@@ -36,7 +36,7 @@ const Navbar = () => {
           <motion.h1
             initial={{ opacity: 0, scale: 0.4 }}
             animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, ease: "backInOut" }}
+            transition={{ duration: 0.8, ease: "backInOut" }}
           >
             Portfolio
           </motion.h1>
@@ -44,7 +44,7 @@ const Navbar = () => {
         <motion.ul
           initial={{ opacity: 0, scale: 0.4 }}
           animate={{ opacity: 1, scale: 1 }}
-          transition={{ duration: 0.5, ease: "backInOut" }}
+          transition={{ duration: 0.8, ease: "backInOut" }}
         >
           <motion.li
             whileTap={{ scale: 0.9 }}
