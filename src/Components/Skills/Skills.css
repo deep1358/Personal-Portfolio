@@ -1,0 +1,86 @@
+.skills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.real-skills {
+  width: 70%;
+  overflow: hidden;
+  padding: 0.5rem;
+  margin: 0 2vh 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.real-skills div {
+  margin: 0.5rem;
+  color: white;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  overflow: hidden;
+}
+.real-skills img {
+  width: 100%;
+  background-color: #6e717a;
+}
+.real-skills p {
+  padding: 0.5rem;
+  text-align: center;
+}
+.skills-title {
+  max-height: 18vh;
+  overflow: hidden;
+  margin: 4vh 0 2vh 0;
+}
+.skills-title h2 {
+  font-family: "Cinzel", serif;
+  color: var(--color4);
+  font-size: 3rem;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.skills-container {
+  display: grid;
+  width: 90%;
+  max-width: 1400px;
+  height: fit-content;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin-bottom: 1vh;
+}
+.skills-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #0f2027;
+  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  padding: 0.6rem 0;
+  margin: 1rem;
+  overflow: hidden;
+  height: 80px;
+  border-radius: 2%;
+  max-height: 20vh;
+  color: white;
+}
+.skills-item p {
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+.skills-item img {
+  max-width: 64px;
+}
+@media (max-width: 400px) {
+  .skills-title h2 {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 1200px) {
+  .real-skills {
+    width: 96%;
+  }
+}

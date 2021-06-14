@@ -1,5 +1,7 @@
 .navbar {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .navbar > img {
@@ -16,7 +18,7 @@ nav {
   position: absolute;
   z-index: 10;
   width: 100vw;
-  color: wheat;
+  max-width: 1800px;
   display: flex;
   align-items: center;
   justify-content: space-evenly;

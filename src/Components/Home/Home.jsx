@@ -7,13 +7,7 @@ const Home = () => {
   const constraintsRef = useRef(null);
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: -10 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 0.3, duration: 0.6 }}
-      className="home"
-      ref={constraintsRef}
-    >
+    <motion.div className="home" ref={constraintsRef}>
       <motion.div
         drag
         dragConstraints={constraintsRef}
@@ -22,31 +16,149 @@ const Home = () => {
         transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
         className="circle circle-1"
       />
-      <div className="circle circle-2"></div>
-      <div className="circle circle-3"></div>
-      <div className="triangle triangle-1"></div>
-      <div className="triangle triangle-3"></div>
-
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        className="circle circle-2"
+      ></motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        className="circle circle-3"
+      ></motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        className="triangle triangle-1"
+      ></motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        className="triangle triangle-3"
+      ></motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        className="triangle triangle-4"
+      ></motion.div>
+      <motion.div
+        drag
+        dragConstraints={constraintsRef}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        className="triangle triangle-5"
+      ></motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 0.2 }}
+        transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
+        drag
+        dragConstraints={constraintsRef}
+        className="square"
+      ></motion.div>
       <div className="title">
-        <span className="triangle triangle-2"></span>
-        <h1>
+        <motion.span
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ delay: 0.2, duration: 0.5, ease: "easeInOut" }}
+          className="triangle triangle-2"
+        ></motion.span>
+
+        <motion.h1
+          initial={{ opacity: 0, y: 150 }}
+          animate={{ y: 0, opacity: 1 }}
+          transition={{
+            delay: 0.3,
+            duration: 0.5,
+            ease: "easeOut",
+            type: "spring",
+            stiffness: 70,
+          }}
+        >
           I'm
           <span className="name">Deep Shah</span>
-        </h1>
+        </motion.h1>
       </div>
-      <h3>Frontend and Backend Developer</h3>
-      <p>
-        Welcome to my portfolio website. Hope you will visit and love this
-        portfolio.
-      </p>
-      <p>Here you can read about me and even see my projects and skills.</p>
-
+      <div style={{ maxHeight: "18vh", overflow: "hidden" }}>
+        <motion.h3
+          initial={{ y: 150 }}
+          animate={{ y: 0 }}
+          transition={{
+            delay: 0.6,
+            duration: 0.5,
+            ease: "easeOut",
+            type: "spring",
+            stiffness: 60,
+          }}
+        >
+          Fullstack Web Developer
+        </motion.h3>
+      </div>
+      <div style={{ maxHeight: "10vh", overflow: "hidden" }}>
+        <motion.p
+          initial={{ y: 150 }}
+          animate={{ y: 0 }}
+          transition={{
+            delay: 0.8,
+            duration: 0.5,
+            ease: "easeOut",
+            type: "spring",
+            stiffness: 50,
+          }}
+        >
+          Web Developer with a passion for programming, solving problems and
+        </motion.p>
+      </div>
+      <div style={{ maxHeight: "10vh", overflow: "hidden" }}>
+        <motion.p
+          initial={{ y: 150 }}
+          animate={{ y: 0 }}
+          transition={{
+            delay: 0.8,
+            duration: 0.5,
+            ease: "easeOut",
+            type: "spring",
+            stiffness: 50,
+          }}
+        >
+          coming up with creative solutions.
+        </motion.p>
+      </div>
       <div className="buttons">
         <Link to="/contact">
-          <button className="btn-primary">Contact Me</button>
+          <motion.button
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{
+              delay: 0.7,
+              ease: "linear",
+              type: "just",
+            }}
+            className="btn-primary"
+          >
+            Contact Me
+          </motion.button>
         </Link>
+
         <a href="/Resume.pdf" download>
-          <button className="btn-secondary">Download Resume</button>
+          <motion.button
+            initial={{ scale: 0, opacity: 0 }}
+            animate={{ scale: 1, opacity: 1 }}
+            transition={{
+              delay: 0.7,
+              ease: "linear",
+              type: "just",
+            }}
+            className="btn-secondary"
+          >
+            Download Resume
+          </motion.button>
         </a>
       </div>
     </motion.div>
