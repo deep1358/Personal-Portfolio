@@ -104,7 +104,6 @@ a {
     padding: 0.5rem 1rem;
   }
   .square {
-    /* right: -10%; */
     height: 150px;
     width: 150px;
   }
@@ -117,7 +116,6 @@ a {
     margin: 0.5rem 0;
   }
   .square {
-    /* right: -15%; */
     height: 100px;
     width: 100px;
   }

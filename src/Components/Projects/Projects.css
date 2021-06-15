@@ -1,0 +1,29 @@
+.projects {
+  min-height: 100vh;
+  max-width: 1400px;
+  margin: 10vh auto 3vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.projects-title {
+  max-height: 18vh;
+  overflow: hidden;
+  margin: 0 0 2vh 0;
+}
+.projects-title h2 {
+  font-family: "Cinzel", serif;
+  color: var(--color4);
+  font-size: 3rem;
+  letter-spacing: 1px;
+  align-items: center;
+}
+.projects-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}

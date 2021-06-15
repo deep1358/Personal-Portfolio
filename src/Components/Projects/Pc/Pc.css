@@ -1,0 +1,34 @@
+.pc {
+  width: 400px;
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pc-image {
+  width: 80%;
+  margin: 0 auto;
+  flex: 1;
+  border: 5px solid black;
+  height: 90%;
+}
+.pc-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pc-keyboard {
+  width: 90%;
+  background-color: black;
+  margin-top: 2px;
+  height: 10px;
+  display: flex;
+  justify-content: center;
+}
+.pc-square {
+  width: 20%;
+  background-color: white;
+  height: 50%;
+}

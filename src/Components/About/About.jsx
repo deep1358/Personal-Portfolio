@@ -107,7 +107,7 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I am good at frontend and backend web developmnet.
+                  I am good at frontend and backend web development.
                 </motion.p>
               </div>
             </motion.li>
@@ -190,7 +190,7 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I am foodie, I love to play and watch football and I love to
+                  I am foodie, I love to play and watch football, and I love to
                   design web pages.
                 </motion.p>
               </div>
@@ -218,7 +218,7 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  And I am ready to take new web development projects.
+                  And I am excited to take web development projects.
                 </motion.p>
               </div>
             </motion.li>

@@ -1,0 +1,121 @@
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  padding: 0.5rem;
+  height: 300px;
+  margin: 2rem 0;
+}
+.project:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.project-left {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(204, 204, 204);
+  padding: 0.2rem 0.5rem;
+  height: 100%;
+  position: relative;
+}
+.project-right {
+  flex: 0.4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  padding: 1rem 0.5rem;
+  background-color: #333d79ff;
+  color: rgb(204, 204, 204);
+}
+.project-right h3 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: "Cinzel", serif;
+  letter-spacing: 1px;
+}
+.project-right p {
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding: 0 0.5rem;
+}
+.project-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.project-buttons button {
+  width: 100%;
+  margin: 0;
+}
+.project-buttons a {
+  color: white;
+  min-width: 30%;
+  margin: 0 1rem;
+}
+@media (max-width: 1200px) {
+  .project {
+    width: 100%;
+  }
+  .project-right {
+    flex: none;
+    width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .project {
+    flex-direction: column;
+    margin: 1rem 0;
+    height: fit-content;
+    margin: 1rem 0;
+    padding: 0;
+  }
+  .project:nth-child(2n) {
+    flex-direction: column;
+  }
+  .project-left {
+    padding: 2rem 0.5rem;
+  }
+  .project-right {
+    width: 540px;
+  }
+  .project-right h3 {
+    margin-bottom: 1vh;
+  }
+  .project-right p {
+    margin-bottom: 1vh;
+  }
+}
+@media (max-width: 580px) {
+  .project-right {
+    width: 90%;
+  }
+}
+@media (max-width: 530px) {
+  .project-left {
+    width: 85%;
+  }
+}
+@media (max-width: 500px) {
+  .project-right h3 {
+    font-size: 1.5rem;
+  }
+  .project-right p {
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+  }
+  .project-left {
+    padding: 0.8rem 0.2rem;
+  }
+  .project-left {
+    min-height: 280px;
+    width: 90%;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
