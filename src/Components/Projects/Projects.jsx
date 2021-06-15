@@ -50,7 +50,7 @@ const Projects = () => {
           title="Ecommerce"
           demo="https://ecommerce-nextjs-henna.vercel.app/"
           code="https://github.com/deep1358/Ecommerce-Nextjs"
-          content="This is simulation of real ecommerce website. In this admin can create and delete products. User can see the products and even purchase it."
+          content="This is simulation of real ecommerce website. In this admin can create and delete products. User can see the products and even purchase them."
         />
         <Project
           image="socialmedia"

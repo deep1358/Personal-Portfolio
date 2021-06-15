@@ -119,3 +119,14 @@
     justify-content: flex-start;
   }
 }
+@media (max-width: 350px) {
+  .project-buttons {
+    flex-direction: column;
+  }
+  .project-buttons a:first-child {
+    margin-bottom: 10px;
+  }
+  .project-buttons a {
+    width: 150px;
+  }
+}

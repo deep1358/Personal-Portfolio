@@ -1,0 +1,235 @@
+.contact {
+  max-width: 1400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+.contact-container {
+  width: 80%;
+  margin: 2vh auto 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  height: 80vh;
+  max-height: 620px;
+}
+.contact img {
+  width: 36px;
+  cursor: pointer;
+}
+.contact-form {
+  flex: 0.65;
+  background-color: azure;
+  color: black;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.contact-form-header {
+  flex: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.contact-form-header h3 {
+  font-family: "Cinzel", serif;
+  font-size: 1.6rem;
+  color: var(--color4);
+}
+.contact-form form {
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+.contact-form form input,
+.contact-form form textarea {
+  width: 80%;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  border-bottom: 2px solid #cad1d7;
+  color: black;
+  font-size: 1rem;
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus,
+.contact-form form input:active,
+.contact-form form textarea:active {
+  outline: none;
+}
+
+.mail-success,
+.mail-error {
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  overflow-wrap: anywhere;
+}
+.mail-success {
+  color: rgb(0, 143, 0);
+}
+.mail-error {
+  color: red;
+}
+
+.contact-right {
+  flex: 0.35;
+  background-color: #253139;
+  height: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  position: relative;
+  overflow: hidden;
+}
+.contact-right h4 {
+  font-family: "Cinzel", serif;
+  font-size: 1.3rem;
+  color: var(--color4);
+  letter-spacing: 1px;
+}
+.contact-info,
+.contact-checkout {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 2rem 1rem;
+  height: 30%;
+}
+.contact-checkout {
+  height: 15%;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.contact-info > div,
+.contact-checkout > div {
+  display: flex;
+  align-items: flex-start;
+}
+.contact-info > div:nth-child(2) p {
+  margin-left: 1rem;
+  color: #556e7a;
+}
+.contact-info > div:last-child,
+.contact-checkout > div:last-child {
+  justify-content: center;
+  width: 100%;
+}
+.contact-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #556e7a;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px;
+}
+.contact-icon a {
+  display: flex;
+}
+.contact-circle {
+  background-color: #556e7a;
+  width: 300px;
+  height: 300px;
+  bottom: -50px;
+  right: -50px;
+  opacity: 0.2;
+}
+@media (max-width: 1000px) {
+  .contact-container {
+    width: 95%;
+  }
+}
+@media (max-width: 850px) {
+  .contact-form-header {
+    justify-content: space-around;
+  }
+  .contact-form {
+    padding: 0;
+  }
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 90%;
+  }
+}
+@media (max-width: 800px) {
+  .contact-container {
+    flex-direction: column;
+    height: fit-content;
+    margin: 10vh 0;
+    max-height: fit-content;
+  }
+  .contact-form {
+    padding: 1rem;
+    min-height: 70vh;
+  }
+  .contact-right {
+    width: 520px;
+  }
+  .contact-checkout {
+    height: 105px;
+  }
+  .contact-info {
+    height: 180px;
+  }
+  .mail-success,
+  .mail-error {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 600px) {
+  .mail-success,
+  .mail-error {
+    width: 100%;
+  }
+  .mail-success,
+  .mail-error {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 500px) {
+  .contact-form-header {
+    flex-direction: column-reverse;
+  }
+  .contact-form-header h3 {
+    font-size: 1.5rem;
+  }
+  .mail-success,
+  .mail-error {
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 400px) {
+  .contact-form-header h3,
+  .contact-checkout h4,
+  .contact-info h4 {
+    font-size: 1.04rem;
+  }
+  .mail-success,
+  .mail-error {
+    font-size: 0.7rem;
+  }
+  .contact-info > div:nth-child(2) p {
+    margin-left: 2px;
+  }
+  .contact-form form input,
+  .contact-form form textarea {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+}

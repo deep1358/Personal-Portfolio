@@ -51,29 +51,7 @@
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   margin-bottom: 1vh;
 }
-.skills-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background: #0f2027;
-  background: -webkit-linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
-  padding: 0.6rem 0;
-  margin: 1rem;
-  overflow: hidden;
-  height: 80px;
-  border-radius: 2%;
-  max-height: 20vh;
-  color: white;
-}
-.skills-item p {
-  font-size: 1.2rem;
-  letter-spacing: 1px;
-}
-.skills-item img {
-  max-width: 64px;
-}
+
 @media (max-width: 400px) {
   .skills-title h2 {
     font-size: 2rem;
