@@ -120,10 +120,7 @@
   display: flex;
   align-items: flex-start;
 }
-.contact-info > div:nth-child(2) p {
-  margin-left: 1rem;
-  color: #556e7a;
-}
+
 .contact-info > div:last-child,
 .contact-checkout > div:last-child {
   justify-content: center;

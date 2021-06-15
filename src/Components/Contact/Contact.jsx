@@ -173,23 +173,27 @@ const Contact = () => {
                 Contact info
               </motion.h4>
             </motion.div>
-            <motion.div
-              initial={{ scale: 0, opacity: 0 }}
-              animate={{ scale: 1, opacity: 1 }}
-              transition={{
-                delay: 0.4,
-                ease: "linear",
-                type: "just",
-              }}
-            >
-              <img
-                style={{ width: "30px" }}
-                src="./image/email.svg"
-                alt="email"
-              />
-              <p>deepshah1358@gmail.com</p>
-            </motion.div>
+
             <div>
+              <motion.div
+                initial={{ scale: 0, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{
+                  delay: 0.4,
+                  ease: "linear",
+                  type: "just",
+                }}
+                className="contact-icon"
+              >
+                <motion.a
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
+                  href="mailto:deepshah1358@gmail.com"
+                  target="_blank"
+                >
+                  <img src="./image/email.svg" alt="email" />
+                </motion.a>
+              </motion.div>
               <motion.div
                 initial={{ scale: 0, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
