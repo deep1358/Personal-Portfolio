@@ -7,6 +7,7 @@ import About from "./Components/About/About";
 import Skills from "./Components/Skills/Skills";
 import Projects from "./Components/Projects/Projects";
 import Contact from "./Components/Contact/Contact";
+import PageNotFound from "./Components/404/404";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/skills" exact component={Skills} />
         <Route path="/projects" exact component={Projects} />
         <Route path="/contact" exact component={Contact} />
+        <Route path="*" component={PageNotFound} />
       </Switch>
     </Router>
   );

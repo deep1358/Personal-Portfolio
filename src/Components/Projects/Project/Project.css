@@ -118,6 +118,9 @@
     align-items: flex-start;
     justify-content: flex-start;
   }
+  .project-buttons a {
+    width: 150px;
+  }
 }
 @media (max-width: 350px) {
   .project-buttons {
