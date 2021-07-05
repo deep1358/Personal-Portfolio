@@ -54,10 +54,10 @@ const Skills = () => {
       image: "firebase",
       title: "Firebase",
     },
-    {
-      image: "python",
-      title: "Python3",
-    },
+    // {
+    //   image: "python",
+    //   title: "Python3",
+    // },
     {
       image: "cpp",
       title: "C++",
