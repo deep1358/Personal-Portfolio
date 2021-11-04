@@ -41,8 +41,8 @@ const Contact = () => {
           setForm({ fullname: "", email: "", subject: "", msg: "" });
           return;
         },
-        (error) => {
-          setError(error);
+        (err) => {
+          setError("Some error has occured. Please try again.");
           return;
         }
       );
