@@ -13,11 +13,14 @@ const Contact = () => {
   });
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const { fullname, email, subject, msg } = form;
 
-  const handleChange = (e) =>
+  const handleChange = (e) => {
+    e.preventDefault();
     setForm({ ...form, [e.target.name]: e.target.value });
+  };
 
   let templateParams = {
     from_name: email,
@@ -28,24 +31,26 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    emailjs
-      .send(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
-        templateParams,
-        process.env.REACT_APP_USER_ID
-      )
-      .then(
-        (result) => {
+    setLoading(true);
+    try {
+      emailjs
+        .send(
+          process.env.REACT_APP_SERVICE_ID,
+          process.env.REACT_APP_TEMPLATE_ID,
+          templateParams,
+          process.env.REACT_APP_USER_ID
+        )
+        .then(() => {
+          setLoading(false);
           setSuccess(true);
           setForm({ fullname: "", email: "", subject: "", msg: "" });
           return;
-        },
-        (err) => {
-          setError("Some error has occured. Please try again.");
-          return;
-        }
-      );
+        });
+    } catch (err) {
+      setLoading(false);
+      setError("Some error has occured. Please try again.");
+      return;
+    }
   };
 
   return (
@@ -127,6 +132,8 @@ const Contact = () => {
             <motion.button
               initial={{ scale: 0, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
+              disabled={loading}
+              style={loading && { cursor: "not-allowed" }}
               transition={{
                 delay: 0.4,
                 ease: "linear",
@@ -134,7 +141,8 @@ const Contact = () => {
               }}
               className="btn-primary"
             >
-              Submit
+              {/* <div className="dot-pulse"></div> */}
+              {loading ? "Sending" : "Submit"}
             </motion.button>
           </motion.form>
           {success && (
