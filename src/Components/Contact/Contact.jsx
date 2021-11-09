@@ -141,7 +141,6 @@ const Contact = () => {
               }}
               className="btn-primary"
             >
-              {/* <div className="dot-pulse"></div> */}
               {loading ? "Sending" : "Submit"}
             </motion.button>
           </motion.form>
