@@ -9,7 +9,7 @@
     "ansi-regex": "^6.0.1",
     "emailjs": "^3.4.0",
     "emailjs-com": "^3.1.0",
-    "framer-motion": "^4.1.17",
+    "framer-motion": "^5.2.1",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
