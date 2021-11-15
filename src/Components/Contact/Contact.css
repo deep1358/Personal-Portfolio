@@ -84,7 +84,7 @@
 
 .contact-right {
   flex: 0.35;
-  background-color: #253139;
+  background-color: #191b2e;
   height: 100%;
   color: white;
   display: flex;
@@ -129,7 +129,7 @@
 .contact-icon {
   width: 50px;
   height: 50px;
-  background-color: #556e7a;
+  background-color: #43497a;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -141,7 +141,7 @@
   display: flex;
 }
 .contact-circle {
-  background-color: #556e7a;
+  background-color: #43497a;
   width: 300px;
   height: 300px;
   bottom: -50px;
