@@ -97,7 +97,7 @@ const Home = () => {
             stiffness: 60,
           }}
         >
-          Fullstack Web Developer
+          Fullstack Developer
         </motion.h3>
       </div>
       <div style={{ maxHeight: "10vh", overflow: "hidden" }}>
@@ -112,7 +112,7 @@ const Home = () => {
             stiffness: 50,
           }}
         >
-          Web Developer with a passion for programming, solving problems and
+          Web developer passionate about programming, problem resolution
         </motion.p>
       </div>
       <div style={{ maxHeight: "10vh", overflow: "hidden" }}>
@@ -127,7 +127,7 @@ const Home = () => {
             stiffness: 50,
           }}
         >
-          coming up with creative solutions.
+          and creative solutions.
         </motion.p>
       </div>
       <div className="buttons">

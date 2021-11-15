@@ -54,10 +54,6 @@ const Skills = () => {
       image: "firebase",
       title: "Firebase",
     },
-    // {
-    //   image: "python",
-    //   title: "Python3",
-    // },
     {
       image: "cpp",
       title: "C++",
@@ -115,7 +111,7 @@ const Skills = () => {
               stiffness: 70,
             }}
           >
-            A good team player and believe in work together.
+            A strong team player who believes in collaboration.
           </motion.p>
         </motion.div>
         <motion.div
@@ -151,7 +147,7 @@ const Skills = () => {
               stiffness: 70,
             }}
           >
-            Mobile-first, responsive design layout for all devices is a top
+            Mobile first, adaptive design layouts for all devices is an absolute
             priority.
           </motion.p>
         </motion.div>
@@ -188,8 +184,7 @@ const Skills = () => {
               stiffness: 70,
             }}
           >
-            Constantly continues to learn new technologies and keeping
-            up-to-date with the fresh trends.
+            Continues to learn new technologies and stay on top of new trends.
           </motion.p>
         </motion.div>
       </div>

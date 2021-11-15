@@ -27,23 +27,21 @@ const Projects = () => {
           title="Share Stories"
           demo="https://share--stories.herokuapp.com/"
           code="https://github.com/deep1358/Share-Stories"
-          content="This project is about creating stories, updating and deleting stories. Authentication is also provided and there is also like and comment features.
-          And all stories are visible to every visitor."
+          content="This project involves the creation, maintenance and deletion of stories. Authentication is also provided. There are also features such as likes & comments. And all the stories are visible to every guest."
         />
         <Project
           image="dummyportfolio"
           title="Dummy Portfolio"
           demo="https://portfolio-frontend-app.vercel.app/"
           code="https://github.com/deep1358/portfolio-frontend"
-          content="This is dummy portfolio.
-          It has blog section, portfolio section, about me section and Auth0 authentication. Admin can create and publish blogs and portfolios."
+          content="This is dummy portfolio. It features the blog section, the portfolio section, the about section and Auth0 authentication. An administrator may create and publish blogs and portfolios."
         />
         <Project
           image="blog"
           title="Blog"
           demo="https://blog-next-js-steel.vercel.app/"
           code="https://github.com/deep1358/Blog-NextJs"
-          content="This is simple Blog website. In this user can login and create some awesome blogs. Every visitor can see the blogs but only authenticated user can comment"
+          content="This is simply a blog site. Within that user can connect and create impressive blogs. While each guest can view the blogs, only the authenticated user can comment."
         />
         <Project
           image="ecommerce"
@@ -57,7 +55,7 @@ const Projects = () => {
           title="Minimal Social Media"
           demo="https://minimal-social-media.vercel.app/"
           code="https://github.com/deep1358/Minimal-social-media"
-          content="This is mini simulation of instagram app. In this user can login. User can create a post, delete post of own and can comment and like."
+          content="It's a miniature simulation of the Instagram application. In that user may log in. The user may create a post, delete the post of their own and can comment and like it."
         />
       </div>
     </div>

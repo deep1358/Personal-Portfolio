@@ -79,8 +79,8 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I am currently pursuing B.E. Degree in Computer Engineering
-                  branch in LDCE, Ahmedabad.
+                  I am currently graduating with a baccalaureate degree in
+                  Computer Engineering from LDCE, Ahmedabad.
                 </motion.p>
               </div>
             </motion.li>
@@ -107,7 +107,7 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I am good at frontend and backend web development.
+                  I am skilled in front-end and back-end web development.
                 </motion.p>
               </div>
             </motion.li>
@@ -134,8 +134,8 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I have some experience in competitive coding as well, As I
-                  participated in some competitions, too.
+                  I have some experience in competitive coding as well, as I
+                  take part in certain competitions, as well.
                 </motion.p>
               </div>
             </motion.li>
@@ -162,8 +162,8 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I have Positive mindset, I am a good team player and I am very
-                  enthusiastic to learn new stuffs.
+                  I have a positive attitude, I am a great team player and I am
+                  very excited about learning new things.
                 </motion.p>
               </div>
             </motion.li>
@@ -190,8 +190,7 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I am foodie, I love to play and watch football, and I love to
-                  design web pages.
+                  I'm a foodie, I like to play and watch soccer and cricket.
                 </motion.p>
               </div>
             </motion.li>
@@ -218,7 +217,8 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  And I am excited to take web development projects.
+                  I love creating websites, and I look forward to taking web
+                  development projects.
                 </motion.p>
               </div>
             </motion.li>
