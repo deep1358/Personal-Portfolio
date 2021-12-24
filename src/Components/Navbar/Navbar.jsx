@@ -34,7 +34,7 @@ const Navbar = () => {
         />
         <Link to="/">
           <motion.h1
-          onClick={() => setIsOpen(false)}
+            onClick={() => setIsOpen(false)}
             initial={{ opacity: 0, scale: 0.4 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8, ease: "backInOut" }}
@@ -47,41 +47,56 @@ const Navbar = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "backInOut" }}
         >
-          <motion.li
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setIsOpen(false)}
-            className={active("/")}
-          >
-            <Link to="/">Home</Link>
-          </motion.li>
-          <motion.li
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setIsOpen(false)}
-            className={active("/about")}
-          >
-            <Link to="/about">About</Link>
-          </motion.li>
-          <motion.li
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setIsOpen(false)}
-            className={active("/skills")}
-          >
-            <Link to="/skills">Skills</Link>
-          </motion.li>
-          <motion.li
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setIsOpen(false)}
-            className={active("/projects")}
-          >
-            <Link to="/projects">Projects</Link>
-          </motion.li>
-          <motion.li
-            whileTap={{ scale: 0.9 }}
-            onClick={() => setIsOpen(false)}
-            className={active("/contact")}
-          >
-            <Link to="/contact">Contact</Link>
-          </motion.li>
+          <li className={active("/")}>
+            <Link to="/">
+              <motion.p
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setIsOpen(false)}
+              >
+                Home
+              </motion.p>
+            </Link>
+          </li>
+          <li className={active("/about")}>
+            <Link to="/about">
+              <motion.p
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setIsOpen(false)}
+              >
+                About
+              </motion.p>
+            </Link>
+          </li>
+          <li className={active("/skills")}>
+            <Link to="/skills">
+              <motion.p
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setIsOpen(false)}
+              >
+                Skills
+              </motion.p>
+            </Link>
+          </li>
+          <li className={active("/projects")}>
+            <Link to="/projects">
+              <motion.p
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setIsOpen(false)}
+              >
+                Projects
+              </motion.p>
+            </Link>
+          </li>
+          <li className={active("/contact")}>
+            <Link to="/contact">
+              <motion.p
+                whileTap={{ scale: 0.9 }}
+                onClick={() => setIsOpen(false)}
+              >
+                Contact
+              </motion.p>
+            </Link>
+          </li>
         </motion.ul>
       </nav>
     </div>
