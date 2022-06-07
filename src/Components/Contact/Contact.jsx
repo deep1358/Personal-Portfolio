@@ -47,7 +47,6 @@ const Contact = () => {
 					return;
 				})
 				.catch((err) => {
-					console.log(err);
 					setLoading(false);
 					setError("Some error has occured. Please try again.");
 				});
