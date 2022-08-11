@@ -79,8 +79,7 @@ const About = () => {
                     stiffness: 40,
                   }}
                 >
-                  I am currently graduating with a baccalaureate degree in
-                  Computer Engineering from LDCE, Ahmedabad.
+                  I am currently working as a Software Engineer in Crest Data Systems.
                 </motion.p>
               </div>
             </motion.li>
