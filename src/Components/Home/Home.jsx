@@ -13,7 +13,7 @@ const Home = () => {
 				dragConstraints={constraintsRef}
 				initial={{ opacity: 0 }}
 				animate={{ opacity: 0.2 }}
-				transition={{ delay: 0.3, duration: 0.5``, ease: "easeInOut" }}
+				transition={{ delay: 0.3, duration: 0.5, ease: "easeInOut" }}
 				className="circle circle-1"
 			/>
 			<motion.div
