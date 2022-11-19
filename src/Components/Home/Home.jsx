@@ -147,7 +147,7 @@ const Home = () => {
 				</Link>
 
 				<a
-					href="https://drive.google.com/file/d/1VQ1NFKzt_p_MFv21yeFQONv6eLtr_7zB/view?usp=sharing"
+					href="https://drive.google.com/drive/u/0/folders/1Y5rYSLTKIJ2YMcskLGkqNQZCulog7T8a"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

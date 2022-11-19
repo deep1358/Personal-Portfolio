@@ -30,13 +30,6 @@ const Projects = () => {
 					content="This project is a full stack application that allows users to track and visualize their espenses."
 				/>
 				<Project
-					image="dummyportfolio"
-					title="Dummy Portfolio"
-					demo="https://portfolio-frontend-app.vercel.app/"
-					code="https://github.com/deep1358/portfolio-frontend"
-					content="This is dummy portfolio. It features the blog section, the portfolio section, the about section and Auth0 authentication. An administrator may create and publish blogs and portfolios."
-				/>
-				<Project
 					image="sharestories"
 					title="Share Stories"
 					demo="https://share--stories.herokuapp.com/"
@@ -63,6 +56,13 @@ const Projects = () => {
 					demo="https://blog-next-js-steel.vercel.app/"
 					code="https://github.com/deep1358/Blog-NextJs"
 					content="This is simply a blog site. Within that user can connect and create impressive blogs. While each guest can view the blogs, only the authenticated user can comment."
+				/>
+				<Project
+					image="dummyportfolio"
+					title="Dummy Portfolio"
+					demo="https://portfolio-frontend-app.vercel.app/"
+					code="https://github.com/deep1358/portfolio-frontend"
+					content="This is dummy portfolio. It features the blog section, the portfolio section, the about section and Auth0 authentication. An administrator may create and publish blogs and portfolios."
 				/>
 			</div>
 		</div>

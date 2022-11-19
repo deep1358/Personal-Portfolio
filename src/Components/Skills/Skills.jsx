@@ -43,6 +43,10 @@ const Skills = () => {
       title: "Git",
     },
     {
+      image: "shell",
+      title: "Bash",
+    },
+    {
       image: "mongo",
       title: "Mongo DB",
     },
