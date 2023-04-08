@@ -8,4 +8,4 @@ Welcome to my digital portfolio github page.
 
 ## Visit
 
-[Portfolio](https://deepshah.netlify.app/)
+[Portfolio](https://deepshah.in/)
