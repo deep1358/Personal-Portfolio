@@ -44,6 +44,13 @@ const Projects = () => {
                     content="This is simulation of real ecommerce website. In this admin can create and delete products. User can see the products and even purchase them."
                 />
                 <Project
+                    image="angular-toasts"
+                    title="Angular-Toasts"
+                    demo="https://angular-toasts.vercel.app/"
+                    code="https://github.com/deep1358/Angular-Toasts"
+                    content="This is a simple toast notification library for Angular. It is very easy to use and can be used in any Angular project."
+                />
+                <Project
                     image="dummyportfolio"
                     title="Dummy Portfolio"
                     demo="https://portfolio-frontend-app.vercel.app/"
