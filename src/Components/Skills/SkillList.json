@@ -1,0 +1,71 @@
+[
+    {
+        "image": "html",
+        "title": "Html5"
+    },
+    {
+        "image": "css",
+        "title": "Css3"
+    },
+    {
+        "image": "javascript",
+        "title": "Javascript"
+    },
+    {
+        "image": "python",
+        "title": "Python"
+    },
+    {
+        "image": "cpp",
+        "title": "C++"
+    },
+    {
+        "image": "react",
+        "title": "React Js"
+    },
+    {
+        "image": "next",
+        "title": "Next Js"
+    },
+    {
+        "image": "node",
+        "title": "Node Js"
+    },
+    {
+        "image": "expressjs",
+        "title": "Express Js",
+        "height": "120"
+    },
+    {
+        "image": "git",
+        "title": "Git"
+    },
+    {
+        "image": "gitlab",
+        "title": "Gitlab CI"
+    },
+    {
+        "image": "shell",
+        "title": "Bash"
+    },
+    {
+        "image": "mongo",
+        "title": "Mongo DB"
+    },
+    {
+        "image": "sql",
+        "title": "SQL"
+    },
+    {
+        "image": "firebase",
+        "title": "Firebase"
+    },
+    {
+        "image": "docker",
+        "title": "Docker"
+    },
+    {
+        "image": "figma",
+        "title": "Figma"
+    }
+]

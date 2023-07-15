@@ -1,73 +1,10 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Item from "./Item/Item";
+import Item from "../../Components/Skills/Item/Item";
+import SkillsList from "../../Components/Skills/SkillList.json";
 import "./Skills.css";
 
 const Skills = () => {
-    const items = [
-        {
-            image: "html",
-            title: "Html5",
-        },
-        {
-            image: "css",
-            title: "Css3",
-        },
-        {
-            image: "javascript",
-            title: "Javascript",
-        },
-        {
-            image: "react",
-            title: "React Js",
-        },
-        {
-            image: "next",
-            title: "Next Js",
-        },
-        {
-            image: "figma",
-            title: "Figma",
-        },
-        {
-            image: "node",
-            title: "Node Js",
-        },
-        {
-            image: "expressjs",
-            title: "Express Js",
-            height: "120",
-        },
-        {
-            image: "git",
-            title: "Git",
-        },
-        {
-            image: "shell",
-            title: "Bash",
-        },
-        {
-            image: "mongo",
-            title: "Mongo DB",
-        },
-        {
-            image: "sql",
-            title: "Mysql",
-        },
-        {
-            image: "firebase",
-            title: "Firebase",
-        },
-        {
-            image: "python",
-            title: "Python",
-        },
-        {
-            image: "cpp",
-            title: "C++",
-        },
-    ];
-
     return (
         <div className="skills">
             <div style={{ marginTop: "10vh" }} className="skills-title">
@@ -214,12 +151,12 @@ const Skills = () => {
                 </motion.h2>
             </div>
             <div className="skills-container">
-                {items.map((item, index) => (
+                {SkillsList.map(({ image, title, height }, index) => (
                     <Item
                         key={index}
-                        image={item.image}
-                        title={item.title}
-                        height={item.height}
+                        image={image}
+                        title={title}
+                        height={height}
                     />
                 ))}
             </div>

@@ -1,28 +1,28 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Home from "./Components/Home/Home";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./Pages/Home/Home";
 import Navbar from "./Components/Navbar/Navbar";
-import About from "./Components/About/About";
-import Skills from "./Components/Skills/Skills";
-import Projects from "./Components/Projects/Projects";
-import Contact from "./Components/Contact/Contact";
-import PageNotFound from "./Components/404/404";
+import About from "./Pages/About/About";
+import Skills from "./Pages/Skills/Skills";
+import Projects from "./Pages/Projects/Projects";
+import Contact from "./Pages/Contact/Contact";
+import PageNotFound from "./Pages/404/404";
+import "./App.css";
 
 function App() {
-  return (
-    <Router>
-      <Navbar />
-      <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/about" exact component={About} />
-        <Route path="/skills" exact component={Skills} />
-        <Route path="/projects" exact component={Projects} />
-        <Route path="/contact" exact component={Contact} />
-        <Route path="*" component={PageNotFound} />
-      </Switch>
-    </Router>
-  );
+    return (
+        <Router>
+            <Navbar />
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/skills" element={<Skills />} />
+                <Route path="/projects" element={<Projects />} />
+                <Route path="/contact" element={<Contact />} />
+                <Route path="*" element={<PageNotFound />} />
+            </Routes>
+        </Router>
+    );
 }
 
 export default App;
