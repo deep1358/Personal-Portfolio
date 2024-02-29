@@ -77,6 +77,16 @@ const Navbar = () => {
                             </motion.p>
                         </Link>
                     </li>
+                    <li className={active("/experience")}>
+                        <Link to="/experience">
+                            <motion.p
+                                whileTap={{ scale: 0.9 }}
+                                onClick={() => setIsOpen(false)}
+                            >
+                                Experience
+                            </motion.p>
+                        </Link>
+                    </li>
                     <li className={active("/projects")}>
                         <Link to="/projects">
                             <motion.p

@@ -220,7 +220,7 @@ const Contact = () => {
                                 <motion.a
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
-                                    href="https://www.instagram.com/_.deep7._/"
+                                    href="https://www.instagram.com/deepshah.in/"
                                     target="_blank"
                                 >
                                     <img
@@ -306,12 +306,12 @@ const Contact = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     target="_blank"
-                                    href="https://www.fiverr.com/webmadeezy"
+                                    href="https://leetcode.com/deepshah1358/"
                                 >
                                     <img
                                         style={{ width: "30px" }}
-                                        src="./image/fiverr.svg"
-                                        alt="fiverr"
+                                        src="./image/leetcode.png"
+                                        alt="leetcode"
                                     />
                                 </motion.a>
                             </motion.div>
