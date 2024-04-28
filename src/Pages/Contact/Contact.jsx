@@ -306,12 +306,57 @@ const Contact = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     target="_blank"
-                                    href="https://www.fiverr.com/webmadeezy"
+                                    href="https://medium.com/@deepshah1358"
+                                >
+                                    <img
+                                        src="./image/medium.svg"
+                                        alt="medium"
+                                    />
+                                </motion.a>
+                            </motion.div>
+                            <motion.div
+                                initial={{ scale: 0, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                transition={{
+                                    delay: 0.4,
+                                    ease: "linear",
+                                    type: "just",
+                                }}
+                                className="contact-icon"
+                            >
+                                <motion.a
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.9 }}
+                                    target="_blank"
+                                    href="https://leetcode.com/u/deepshah1358/"
                                 >
                                     <img
                                         style={{ width: "30px" }}
-                                        src="./image/fiverr.svg"
-                                        alt="fiverr"
+                                        src="./image/leetcode.svg"
+                                        alt="leetcode"
+                                    />
+                                </motion.a>
+                            </motion.div>
+                            <motion.div
+                                initial={{ scale: 0, opacity: 0 }}
+                                animate={{ scale: 1, opacity: 1 }}
+                                transition={{
+                                    delay: 0.4,
+                                    ease: "linear",
+                                    type: "just",
+                                }}
+                                className="contact-icon"
+                            >
+                                <motion.a
+                                    whileHover={{ scale: 1.1 }}
+                                    whileTap={{ scale: 0.9 }}
+                                    target="_blank"
+                                    href="https://www.naukri.com/code360/profile/ef653cc7-08ce-4588-8a6c-71f45bb3129c"
+                                >
+                                    <img
+                                        style={{ width: "30px" }}
+                                        src="./image/coding_ninja.png"
+                                        alt="coding ninja"
                                     />
                                 </motion.a>
                             </motion.div>
