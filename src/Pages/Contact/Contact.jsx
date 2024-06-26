@@ -243,7 +243,7 @@ const Contact = () => {
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
                                     target="_blank"
-                                    href="https://www.linkedin.com/in/deep-shah-b0b0171b8/"
+                                    href="https://www.linkedin.com/in/deep1358/"
                                 >
                                     <img
                                         src="./image/linkedin.svg"
