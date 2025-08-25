@@ -220,7 +220,7 @@ const Contact = () => {
                                 <motion.a
                                     whileHover={{ scale: 1.1 }}
                                     whileTap={{ scale: 0.9 }}
-                                    href="https://www.instagram.com/_.deep7._/"
+                                    href="https://www.instagram.com/deepshah.in/"
                                     target="_blank"
                                 >
                                     <img
