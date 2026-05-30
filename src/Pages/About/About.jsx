@@ -151,7 +151,7 @@ const About = () => {
                             }`}
                         >
                             <AnimatedCounter value={stat.value} suffix={stat.suffix} />
-                            <span className="text-[#555] text-xs md:text-sm mt-1 tracking-wide">{stat.label}</span>
+                            <span className="text-[#888] text-xs md:text-sm mt-1 tracking-wide">{stat.label}</span>
                         </div>
                     ))}
                 </motion.div>
@@ -238,20 +238,20 @@ const About = () => {
                                 {work.company.split(" ")[0].toUpperCase()}
                             </span>
                             <div className="relative">
-                                <span className="text-[#444] text-xs font-mono tracking-widest uppercase">{work.tag}</span>
+                                <span className="text-[#777] text-xs font-mono tracking-widest uppercase">{work.tag}</span>
                                 <h4
                                     className="text-white font-bold mt-2 mb-3"
                                     style={{ fontFamily: "'Space Grotesk', sans-serif", fontSize: "1.05rem" }}
                                 >
                                     {work.title}
                                 </h4>
-                                <p className="text-[#666] text-sm leading-relaxed mb-4">{work.description}</p>
+                                <p className="text-[#999] text-sm leading-relaxed mb-4">{work.description}</p>
                                 <div className="flex flex-wrap gap-2">
                                     {work.tech.map((t) => (
                                         <span
                                             key={t}
-                                            className="text-[#555] text-xs px-2.5 py-0.5 rounded-full"
-                                            style={{ border: "1px solid #2a2a2a" }}
+                                            className="text-[#888] text-xs px-2.5 py-0.5 rounded-full"
+                                            style={{ border: "1px solid #333" }}
                                         >
                                             {t}
                                         </span>

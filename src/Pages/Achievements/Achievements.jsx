@@ -90,7 +90,7 @@ const Achievements = () => {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="text-[#444] text-xs font-mono uppercase tracking-widest mb-8"
+                        className="text-[#777] text-xs font-mono uppercase tracking-widest mb-8"
                     >
                         Recognition
                     </motion.p>
@@ -152,19 +152,19 @@ const Achievements = () => {
                                                 >
                                                     {entry.title}
                                                 </h3>
-                                                <span className="text-[#444] text-xs font-mono whitespace-nowrap">{entry.period}</span>
+                                                <span className="text-[#777] text-xs font-mono whitespace-nowrap">{entry.period}</span>
                                             </div>
                                             <div className="flex flex-wrap items-center gap-x-3 gap-y-0.5 mb-3">
-                                                <p className="text-[#666] text-sm">{entry.org}</p>
+                                                <p className="text-[#999] text-sm">{entry.org}</p>
                                                 <span
-                                                    className="text-[#333] text-[10px] font-mono px-2 py-0.5 rounded-full"
-                                                    style={{ border: "1px solid #2a2a2a" }}
+                                                    className="text-[#777] text-[10px] font-mono px-2 py-0.5 rounded-full"
+                                                    style={{ border: "1px solid #444" }}
                                                 >
                                                     {entry.tag}
                                                 </span>
                                             </div>
-                                            <p className="text-[#555] text-sm leading-relaxed mb-4">{entry.desc}</p>
-                                            <span className="text-[#333] group-hover/card:text-[#888] text-xs font-mono tracking-widest uppercase transition-colors duration-200 flex items-center gap-1.5">
+                                            <p className="text-[#999] text-sm leading-relaxed mb-4">{entry.desc}</p>
+                                            <span className="text-[#666] group-hover/card:text-[#bbb] text-xs font-mono tracking-widest uppercase transition-colors duration-200 flex items-center gap-1.5">
                                                 View Certificate
                                                 <svg width="10" height="10" viewBox="0 0 10 10" fill="none" className="inline-block">
                                                     <path d="M1 9L9 1M9 1H3M9 1V7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
@@ -195,7 +195,7 @@ const Achievements = () => {
                         whileInView={{ opacity: 1 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.5 }}
-                        className="text-[#444] text-xs font-mono uppercase tracking-widest mb-6"
+                        className="text-[#777] text-xs font-mono uppercase tracking-widest mb-6"
                     >
                         Certifications
                     </motion.p>
@@ -226,16 +226,16 @@ const Achievements = () => {
                                         >
                                             {cert.title}
                                         </p>
-                                        <p className="text-[#444] text-xs mt-0.5 group-hover:text-[#666] transition-colors duration-200">
+                                        <p className="text-[#777] text-xs mt-0.5 group-hover:text-[#aaa] transition-colors duration-200">
                                             {cert.issuer}
                                         </p>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-2 shrink-0">
-                                    <span className="text-[#2a2a2a] text-xs font-mono group-hover:text-[#444] transition-colors duration-200">
+                                    <span className="text-[#666] text-xs font-mono group-hover:text-[#aaa] transition-colors duration-200">
                                         {cert.year}
                                     </span>
-                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" className="text-[#2a2a2a] group-hover:text-[#555] transition-colors duration-200">
+                                    <svg width="10" height="10" viewBox="0 0 10 10" fill="none" className="text-[#666] group-hover:text-[#aaa] transition-colors duration-200">
                                         <path d="M1 9L9 1M9 1H3M9 1V7" stroke="currentColor" strokeWidth="1.2" strokeLinecap="round" strokeLinejoin="round"/>
                                     </svg>
                                 </div>

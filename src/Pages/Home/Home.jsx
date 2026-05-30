@@ -131,7 +131,7 @@ const Home = () => {
                     initial={{ opacity: 0, y: 16 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6, delay: 1.1 }}
-                    className="text-[#555] text-base md:text-lg max-w-sm leading-relaxed"
+                    className="text-[#999] text-base md:text-lg max-w-sm leading-relaxed"
                 >
                     Passion for programming, problem solving and creative solutions.
                 </motion.p>

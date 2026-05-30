@@ -112,7 +112,7 @@ const Navbar = () => {
                                 className={`text-lg font-medium tracking-wide transition-colors duration-200 ${
                                     isActive(path)
                                         ? "text-white"
-                                        : "text-[#555] hover:text-white"
+                                        : "text-[#888] hover:text-white"
                                 }`}
                             >
                                 {label}

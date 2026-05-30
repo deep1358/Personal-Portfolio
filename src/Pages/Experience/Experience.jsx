@@ -67,7 +67,7 @@ function TimelineSection({ label, entries }) {
                 whileInView={{ opacity: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
-                className="text-[#444] text-xs font-mono uppercase tracking-widest mb-8"
+                className="text-[#777] text-xs font-mono uppercase tracking-widest mb-8"
             >
                 {label}
             </motion.p>
@@ -125,11 +125,11 @@ function TimelineSection({ label, entries }) {
                                         >
                                             {entry.company}
                                         </h3>
-                                        <span className="text-[#444] text-xs font-mono whitespace-nowrap">{entry.period}</span>
+                                        <span className="text-[#777] text-xs font-mono whitespace-nowrap">{entry.period}</span>
                                     </div>
                                     <div className="flex flex-wrap items-center justify-between gap-x-4 gap-y-0.5 mb-5">
-                                        <p className="text-[#666] text-sm">{entry.role}</p>
-                                        <p className="text-[#2a2a2a] text-xs">{entry.location}</p>
+                                        <p className="text-[#999] text-sm">{entry.role}</p>
+                                        <p className="text-[#666] text-xs">{entry.location}</p>
                                     </div>
 
                                     {/* Bullets */}
@@ -154,8 +154,8 @@ function TimelineSection({ label, entries }) {
                                             {entry.tech.map((t) => (
                                                 <span
                                                     key={t}
-                                                    className="text-[#555] text-xs px-3 py-1 rounded-full"
-                                                    style={{ border: "1px solid #2a2a2a" }}
+                                                    className="text-[#888] text-xs px-3 py-1 rounded-full"
+                                                    style={{ border: "1px solid #333" }}
                                                 >
                                                     {t}
                                                 </span>

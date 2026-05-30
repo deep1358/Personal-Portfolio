@@ -87,7 +87,7 @@ const checkoutLinks = [
 const inputClass = [
     "w-full bg-transparent outline-none",
     "border-0 border-b py-3 text-sm text-white",
-    "placeholder:text-[#333]",
+    "placeholder:text-[#555]",
     "transition-colors duration-200",
 ].join(" ");
 
@@ -246,7 +246,7 @@ const Contact = () => {
                     >
                         {/* Contact info */}
                         <div>
-                            <p className="text-[#444] text-xs font-mono uppercase tracking-widest mb-5">
+                            <p className="text-[#777] text-xs font-mono uppercase tracking-widest mb-5">
                                 Contact info
                             </p>
                             <div className="flex flex-col gap-4">
@@ -256,7 +256,7 @@ const Contact = () => {
                                         href={href}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex items-center gap-3 text-[#444] hover:text-white transition-colors duration-200"
+                                        className="group flex items-center gap-3 text-[#777] hover:text-white transition-colors duration-200"
                                     >
                                         <span className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity duration-200">
                                             <Icon />
@@ -272,7 +272,7 @@ const Contact = () => {
 
                         {/* Find me on */}
                         <div>
-                            <p className="text-[#444] text-xs font-mono uppercase tracking-widest mb-5">
+                            <p className="text-[#777] text-xs font-mono uppercase tracking-widest mb-5">
                                 Find me on
                             </p>
                             <div className="flex flex-col gap-4">
@@ -282,7 +282,7 @@ const Contact = () => {
                                         href={href}
                                         target="_blank"
                                         rel="noopener noreferrer"
-                                        className="group flex items-center gap-3 text-[#444] hover:text-white transition-colors duration-200"
+                                        className="group flex items-center gap-3 text-[#777] hover:text-white transition-colors duration-200"
                                     >
                                         <span className="shrink-0 opacity-50 group-hover:opacity-100 transition-opacity duration-200">
                                             <Icon />

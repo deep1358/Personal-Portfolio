@@ -88,7 +88,7 @@ const PageNotFound = () => {
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 1.2 }}
-                    className="text-[#555] text-sm max-w-xs leading-relaxed mb-8"
+                    className="text-[#999] text-sm max-w-xs leading-relaxed mb-8"
                 >
                     The page you're looking for doesn't exist or has been moved.
                 </motion.p>
